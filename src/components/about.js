@@ -37,7 +37,7 @@ const Header = ({ data }) => (
                 <p>{data.location}</p>
               </li>
               <li>
-                <strong>Email Name</strong>
+                <strong>Email</strong>
                 <p>
                   <a href={`mailto:${data.gmail}`}>{data.gmail}</a>
                 </p>
